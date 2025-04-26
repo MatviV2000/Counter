@@ -37,9 +37,7 @@
                                 <rect key="frame" x="55" y="650" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="-1">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="24"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="filled" image="minus" catalog="system"/>
                                 <connections>
                                     <action selector="decrementButtonTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SQN-Br-Ncq"/>
                                 </connections>
@@ -57,9 +55,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="+1">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="24"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="filled" image="plus" catalog="system"/>
                                 <connections>
                                     <action selector="incrementButtonTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vxQ-kc-Bxy"/>
                                 </connections>
@@ -70,7 +66,7 @@
                                 <color key="tintColor" systemColor="systemGrayColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <imageReference key="image" image="eraser" catalog="system" symbolScale="large" variableValue="1"/>
+                                    <imageReference key="image" image="arrow.trianglehead.clockwise" catalog="system" symbolScale="large" variableValue="1"/>
                                     <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -95,7 +91,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="eraser" catalog="system" width="128" height="119"/>
+        <image name="arrow.trianglehead.clockwise" catalog="system" width="119" height="128"/>
+        <image name="minus" catalog="system" width="128" height="26"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

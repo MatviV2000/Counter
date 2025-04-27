@@ -43,7 +43,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" text="История значений:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fy6-ev-Mra">
-                                <rect key="frame" x="16" y="59" width="361" height="253"/>
+                                <rect key="frame" x="16" y="59" width="361" height="308"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -66,7 +66,7 @@
                                 <color key="tintColor" systemColor="systemGrayColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <imageReference key="image" image="arrow.trianglehead.clockwise" catalog="system" symbolScale="large" variableValue="1"/>
+                                    <imageReference key="image" image="arrow.clockwise" catalog="system" symbolScale="large" variableValue="1"/>
                                     <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -91,7 +91,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow.trianglehead.clockwise" catalog="system" width="119" height="128"/>
+        <image name="arrow.clockwise" catalog="system" width="110" height="128"/>
         <image name="minus" catalog="system" width="128" height="26"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <namedColor name="AccentColor">
